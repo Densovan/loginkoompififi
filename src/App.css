@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Battambang", "alibaba-sans" !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrap-login100 {
+  width: 20%;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  background: #fff;
+  padding: 50px 40px 40px;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  -moz-transform: translate(-50%, -50%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background-image {
+  background-color: rgb(35, 48, 65);
+  background-image: url("/public/images/background.jpg");
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.logo-contain {
+  margin-top: -23px;
+  margin-bottom: 23px;
+}
+.logo-contain img {
+  width: 120px;
+  height: 120px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.ant-input-affix-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  font-size: 20px !important;
+  padding: 4px 11px;
+  color: #868e96;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #0caedc;
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.3s;
+  display: inline-flex;
+}
+.ant-input::placeholder {
+  font-size: 18px;
+  color: #868e96;
+}
+.welcome {
+  color: #0caedc;
+}
+.login-form-button {
+  width: 100%;
+  background-color: #0caedc !important;
+  border: none;
+  height: 50px;
+  border-radius: 12px;
+  font-size: 20px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
